@@ -1,0 +1,35 @@
+ul {
+  font-size: 15px;
+  color: #772b5a;
+}
+
+ol {
+  font-size: 18px;
+  color: #772b5a;
+}
+
+div > ul {
+  color: green;
+}
+
+.warning, .error, .success {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  color: white;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=variables.css.map */

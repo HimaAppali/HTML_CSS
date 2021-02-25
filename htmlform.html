@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="enter name" name="fname">
+            <input type="password" placeholder="enter password" name="psw">
+        </div>
+        <div>
+            Fav color ?
+            <input name="color" type="radio" value="red"> Red
+            <input name="color" type="radio" value="blue"> Blue
+            <input name="color" type="radio" value="green"> Green
+        </div>
+        <div>
+            <!-- select and autocomplete -->
+            <input name="country" list="countries" placeholder="select country">
+            <datalist id="countries">
+                <option value="India">
+                <option value="Indonaisa">
+                <option value="USA">
+                <option value="UAE">
+            </datalist>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+.heading-styles {
+    color: blue;
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 20px;
+    border: 3px dotted black;
+    width: 200px;
+}
+
+#unorderedlist-styles {
+ background-color:brown;
+ color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+td, th {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+ol li:first-child {
+    color: red;
+}
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+a {
+    background-color: yellow;
+}
+
+/* attribute selector */
+a[href="https://google.com"] {
+    color: brown;
+}
+
+a:hover {
+    color: orangered;
+}
+
+input[type = submit]:hover {
+ background-color: red;
+}

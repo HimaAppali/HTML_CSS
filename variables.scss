@@ -1,0 +1,39 @@
+$color : rgb(119, 43, 90);
+$insidedivcolor: green;
+
+ul {
+    font-size: 15px;
+    color: $color;
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+}
+
+//nesting in scss
+div > ul {
+    color: $insidedivcolor;
+}
+
+//inherience
+%message {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    color: white;
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+.error {
+    @extend %message;
+    background-color: red;
+}
+.warning {
+    @extend %message;
+    background-color: orange;
+}
